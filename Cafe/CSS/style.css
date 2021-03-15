@@ -1,0 +1,142 @@
+h1{
+	color:#454545;
+}
+p{
+	color:#a7a7a7;
+}
+
+.image{
+	width:128px;
+	height:77px;
+	margin:0 auto;
+}
+.head{
+	background:linear-gradient(rgba(141,154,158,1), rgba(204, 204, 204, 0.4)), url(../Images/Background/business.jpeg) no-repeat;
+	height:600px;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+nav{
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+}
+.nav-item{
+	margin:0px 10px 0px 10px;
+}
+.nav-link{
+	color:#fff;
+	transition:1s;
+}
+.nav-link:hover{
+	color:#000;
+	transition-timing-function:cubic-bezier(0,1,1,0); 
+}
+.bttn{
+	border:1px solid #fff;
+	color:#fff;
+}
+.text{
+	width:30%;
+	margin-top:90px;
+}
+.text h1{
+	font-size:40px;
+	color:#fff;
+}
+.text h1 span{
+	font-size:80px;
+}
+.text p{
+	color:#fff;
+}
+.line{
+	width:80%;
+	height:1px;
+	background:#fff;
+}
+.arrow{
+	width:30px;
+	height:18px;
+ 	margin-top:30%;
+}
+.logo{
+	background:#fff;
+	box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.2);
+	padding:10px;
+}
+
+.coffee h1{
+	color:#454545;
+	font-size:50px;
+	font-weight:500;
+}
+
+.coffee p{
+	color:#979797;
+}
+
+.line1{
+	background:#cccccc;
+	height:1px;
+}
+.line2{
+	width:90px;
+	height:1px;
+	background:#cccccc;
+}
+.reviews img{
+	width:250px;
+	height:250px;
+}
+.texttop{
+	margin-top:150px;
+}
+.dish img{
+	transition:1s;
+}
+.dish img:hover{
+	box-shadow: 8px 4px 8px 8px rgba(40,167,69,0.6);
+	transition-timing-function:ease-in-out;
+}
+.img-center{
+	width:150px;
+	height:150px;
+}
+.img-center img{
+	width:150px;
+	height:150px;
+}
+
+.chefs div{
+	height:200px;
+	width:100%;
+	background:repeating-linear-gradient(0deg, hsla(13,0%,82%,0.05) 0px, hsla(13,0%,82%,0.05) 1px,transparent 1px, transparent 56px),repeating-linear-gradient(45deg, hsla(13,0%,82%,0.05) 0px, hsla(13,0%,82%,0.05) 1px,transparent 1px, transparent 56px),repeating-linear-gradient(112.5deg, hsla(13,0%,82%,0.05) 0px, hsla(13,0%,82%,0.05) 1px,transparent 1px, transparent 16px),repeating-linear-gradient(157.5deg, hsla(13,0%,82%,0.05) 0px, hsla(13,0%,82%,0.05) 1px,transparent 1px, transparent 16px),repeating-linear-gradient(22.5deg, hsla(13,0%,82%,0.05) 0px, hsla(13,0%,82%,0.05) 1px,transparent 1px, transparent 16px),repeating-linear-gradient(67.5deg, hsla(13,0%,82%,0.05) 0px, hsla(13,0%,82%,0.05) 1px,transparent 1px, transparent 16px),linear-gradient(90deg, hsl(119,4%,12%),hsl(119,4%,12%));
+	visibility:hidden;	
+}
+.chefs:hover div{
+	visibility:visible;
+	transition:1s;
+	transition-timing-function:ease-in-out;
+	box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.events ul li{
+	list-style-image:url(../Images/Illustrations/callender.png);
+}
+.newsone{
+	width:200px;
+	height:200px;
+}
+.news img{
+	width:200px;
+	height:200px;
+}
+.button{
+	width:104px;
+	height:40px;
+}
+.map{
+	background:linear-gradient(rgba(0,0,0,0.4) 60%, rgba(0,0,0,0.8)), url(../Images/Background/Map.png);
+	height:500px;
+	background-size:cover;
+	padding-bottom:40px;
+}
